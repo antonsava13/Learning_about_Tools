@@ -1,0 +1,4 @@
+$ git init
+$ git pull <url>
+$ git remote add [origin] <url> # Setting the remote depository
+$ git remote remove [name - origine] #Removes whatever was set for remote
