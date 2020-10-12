@@ -1,0 +1,23 @@
+The Book:
+
+/Users/antonsavenkov/Desktop/Books/Programming /Don Jones, Jeffery Hicks - Learn Windows PowerShell in a Month of Lunches-Manning (2017).pdf
+
+Version of the PowerShell
+>$PSVersionTable
+
+PowerShell help files:
+http://github.com/powershell
+
+>Get-Help Get-Content | More
+The same as
+>Help Get-Content
+
+Ctrl-C - to break any command
+
+cmdlet - comands native to PowerShell
+
+>Get-Command *log* -type cmdlet | More - gets a list of cmdlet commands one page at the time (More is used)
+
+
+Help <command> -full
+Help <command> -ShowWindow
